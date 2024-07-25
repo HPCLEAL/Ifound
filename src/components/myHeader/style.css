@@ -1,0 +1,64 @@
+header{
+    width: 100vw;
+    height: 6vh;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+#logo{
+   
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    position: fixed;
+}
+
+nav{
+    width: 100vw;
+display: flex;
+justify-content: flex-end;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.3rem;
+    padding: 2rem;
+}
+.title h1 {
+    font-size: 3rem;
+}
+.title  p{
+    font-size: 1.4rem;
+}
+article{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+}
+article p {
+    font-size: 1.2rem;
+}
+article button{
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: rgb(71, 71, 214);
+    color: #ccc;
+    cursor: pointer;
+}
