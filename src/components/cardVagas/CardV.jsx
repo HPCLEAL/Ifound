@@ -1,5 +1,5 @@
 import React from "react";
-
+import './style.css'
 const CardVagas=({vagaData})=>{
     return(
 
@@ -7,9 +7,9 @@ const CardVagas=({vagaData})=>{
 {
     <div className="cardv" >
         <h3>{vagaData.titulo}</h3>
-        <p>{vagaData.empresa}</p>
+        <p className="emName">{vagaData.empresa}</p>
         <p>{vagaData.desc}</p>
-        <p>{vagaData.salario}R$</p>
+        <p> Salario: {vagaData.salario}R$</p>
         <div className="benefDiv">
             {vagaData.beneficios.map( itens=>(
                 <>
@@ -20,8 +20,9 @@ const CardVagas=({vagaData})=>{
                 </>
             ))}
         </div>
+        <button>Candidatar-se</button>
     </div>
-}
+} 
         </>
     )
 }

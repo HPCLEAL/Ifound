@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter,RouterProvider, } from "react-router-dom";
 import HomePage from "./pages/home-page/home";
-import FeedVagas from "./pages/Vagas";
+import FeedVagas from "./pages/Feed-vagas/Vagas";
 
 
 const router =
