@@ -64,5 +64,47 @@ export const dados={
         }]
             
         },
+    ],
+    candidatos:[
+        {
+            userId:1,
+            nome:'Lucas',
+            sobrenome:'Miranda',
+            telefone:'419999999',
+            email:'lucasmiranda@gmail.com',
+           curriculoPdf:'arquivo-Lucas.pdf'
+
+
+        },
+        {
+            userId:2,
+            nome:'Marcos',
+            sobrenome:'Mendes',
+            telefone:'419999999',
+            email:'MarcosMendes@gmail.com',
+           curriculoPdf:'arquivo-Marcos.pdf'
+
+
+        },
+        {
+            userId:3,
+            nome:'Elisa',
+            sobrenome:'Silveira',
+            telefone:'419999999',
+            email:'ElisaSilveiraa@gmail.com',
+           curriculoPdf:'arquivo-Elisa.pdf'
+
+
+        },
+        {
+            userId:1,
+            nome:'Paulo',
+            sobrenome:'Fernandes',
+            telefone:'419999999',
+            email:'paulofernandes@gmail.com',
+           curriculoPdf:'arquivo-paulo.pdf'
+
+
+        }
     ]
 }

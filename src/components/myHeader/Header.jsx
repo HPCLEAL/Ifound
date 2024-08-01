@@ -4,7 +4,7 @@ import './style.css'
 const Header =()=>{
     return(
         <header>
-            <p id='logo'>Ifound</p>
+           <p id='logo'><Link to='/'>Ifound </Link></p>
             <nav>
             <Link to="/vagas" >
       Vagas
