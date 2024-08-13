@@ -1,0 +1,63 @@
+
+body{
+
+z-index: 1;
+
+}
+
+
+.overlay{
+
+    background-color: rgb(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.modalCandiDiv{
+
+    position: fixed;
+    top: 20vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60vw;
+    height: 60vh;
+    background-color: #fff;
+position: absolute;
+margin: 0 auto;
+z-index: 1000;
+border-radius: 5px;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.modalCandiDiv form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+#close-btn{
+
+    position: fixed;
+    top: 22vh;
+    right: 20vw;
+    
+}
+
+form input{
+
+width: 25vw;
+height:4vh;
+border-radius: 5px;
+
+}

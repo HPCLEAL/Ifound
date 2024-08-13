@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import './style.css'
+import CandForm from "../Modals/CadidatoForm/CandForm";
 const CardVagas=({vagaData})=>{
+
+    const [modalOpen,modalIsOpen]= useState(false)
     return(
 
         <>
-{
+
     <div className="cardv" >
         <h3>{vagaData.titulo}</h3>
         <p className="emName">{vagaData.empresa}</p>
@@ -20,9 +23,13 @@ const CardVagas=({vagaData})=>{
                 </>
             ))}
         </div>
-        <button>Candidatar-se</button>
+        <button onClick={()=>{
+            return modalIsOpen(!modalOpen)
+        }}>Candidatar-se</button>
     </div>
-} 
+<CandForm  isOpen={modalOpen} setIsOpen={modalIsOpen} vagaDesc={vagaData}  />
+
+
         </>
     )
 }
